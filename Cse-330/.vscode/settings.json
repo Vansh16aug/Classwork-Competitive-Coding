@@ -1,0 +1,32 @@
+{
+  "files.associations": {
+    "*.embeddedhtml": "html",
+    "*.ejs": "html",
+    ".env*": "dotenv",
+    "iostream": "cpp",
+    "*.tcc": "cpp",
+    "deque": "cpp",
+    "list": "cpp",
+    "string": "cpp",
+    "unordered_map": "cpp",
+    "unordered_set": "cpp",
+    "vector": "cpp",
+    "array": "cpp",
+    "forward_list": "cpp",
+    "memory": "cpp",
+    "fstream": "cpp",
+    "functional": "cpp",
+    "future": "cpp",
+    "istream": "cpp",
+    "ostream": "cpp",
+    "shared_mutex": "cpp",
+    "sstream": "cpp",
+    "streambuf": "cpp",
+    "thread": "cpp",
+    "regex": "cpp",
+    "tuple": "cpp",
+    "valarray": "cpp",
+    "initializer_list": "cpp",
+    "cmath": "cpp"
+  }
+}

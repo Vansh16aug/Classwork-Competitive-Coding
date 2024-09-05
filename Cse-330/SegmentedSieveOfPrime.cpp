@@ -1,12 +1,12 @@
 #include <bits/stdc++.h>
 using namespace std;
-void print(vector<bool> prime, int n, int sum = 0)
+void print(vector<bool> prime, int n,int sum=0)
 {
     for (int i = 0; i <= n; i++)
     {
         if (prime[i])
         {
-            cout << i + sum << " ";
+            cout << i+sum << " ";
         }
     }
 }
@@ -28,7 +28,7 @@ void SegmentedSieve(int l, int r, vector<bool> prime)
             }
         }
     }
-    print(RangePrime, r - l, l);
+    print(RangePrime, r - l,l);
 }
 void FindPrimeTillRange(int l, int r)
 {
@@ -48,7 +48,6 @@ void FindPrimeTillRange(int l, int r)
     // print(prime, sqrt(r));
     SegmentedSieve(l, r, prime);
 }
-
 int main()
 {
     int l, r;
